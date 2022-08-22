@@ -179,3 +179,115 @@
     padding-left: 25%;
   }
 }
+
+@media screen and (min-width: 768px) {
+
+ .text2 {
+    position: absolute;
+    top: 13%;
+    right: 32%;
+    font-size: 25px;
+  }
+
+  .text3 {
+    position: absolute;
+    bottom: 40%;
+    right: 10%;
+    font-size: 1.5em;
+    line-height: 1.5em;
+  }
+
+  .buttons {
+    display: inline;
+    position: absolute;
+    font-size: 14px;
+    padding-top: 100%;
+    padding-left: 25%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+
+  .text2 {
+     position: absolute;
+     top: 11%;
+     right: 50%;
+     font-size: 25px;
+   }
+ 
+   .text3 {
+     position: absolute;
+     bottom: 40%;
+     right: 10%;
+     font-size: 1.8em;
+     line-height: 1.5em;
+   }
+
+   .buttons {
+    display: inline;
+    position: absolute;
+    font-size: 14px;
+    padding-top: 100%;
+    padding-left: 25%;
+  }
+ }
+
+ @media screen and (min-width: 1200px) {
+
+  .text {
+    position: absolute;
+    left: 4%;
+    padding-top: 5%;
+    font-size: 4em;
+    line-height: 1.2em;
+  }
+
+  .text2 {
+     position: absolute;
+     top: 20%;
+     right: 55%;
+     font-size: 25px;
+   }
+ 
+   .text3 {
+     position: absolute;
+     bottom: 27%;
+     left: 65%;
+     font-size: 1.6em;
+     line-height: 1.5em;
+   }
+
+   .buttons {
+    display: inline;
+    position: absolute;
+    font-size: 18px;
+    padding-top: 52%;
+    padding-left: 35%;
+  }
+ }
+
+ @media screen and (min-width: 1400px) {
+
+    .text2 {
+     position: absolute;
+     top: 18%;
+     right: 55%;
+     font-size: 28px;
+   }
+ 
+   .text3 {
+     position: absolute;
+     bottom: 27%;
+     left: 70%;
+     font-size: 1.6em;
+     line-height: 1.5em;
+   }
+
+   .buttons {
+    display: inline;
+    position: absolute;
+    font-size: 18px;
+    padding-top: 60%;
+    padding-left: 40%;
+  }
+ }
