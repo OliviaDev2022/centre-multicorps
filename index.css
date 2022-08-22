@@ -237,7 +237,7 @@
   .text {
     position: absolute;
     left: 4%;
-    padding-top: 5%;
+    padding-top: 3%;
     font-size: 4em;
     line-height: 1.2em;
   }
@@ -261,7 +261,7 @@
     display: inline;
     position: absolute;
     font-size: 18px;
-    padding-top: 52%;
+    padding-top: 38%;
     padding-left: 35%;
   }
  }
