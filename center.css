@@ -1,11 +1,17 @@
-body {
-  background-color: rgb(247, 198, 198);
-}
-
 .welcome {
   background-color: rgb(202, 197, 191);
 }
 
 .navbar, .footer {
-  background-color: aliceblue;
+  background-color: rgb(243, 243, 243);
 }
+
+body {
+  background-color: rgb(235, 127, 174);
+}
+
+/*
+- font, size and colors of h1 et h2 (like index)
+- create all pages 
+- media queries
+*/
