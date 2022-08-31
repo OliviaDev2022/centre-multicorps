@@ -1,17 +1,90 @@
-.welcome {
-  background-color: rgb(202, 197, 191);
+body {
+  width: 100vw;
+  height: 100vh;
 }
 
 .navbar, .footer {
   background-color: rgb(243, 243, 243);
 }
 
-body {
-  background-color: rgb(235, 127, 174);
+.navbar {
+  font-size: 10px;
+  align-self: flex-start;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bolder;
+  
 }
 
+.entete {
+  background-color: rgb(210, 153, 174);
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-style: italic;
+}
+      
+.span1 {
+  color: rgb(85, 19, 227);
+}
+      
+.span2 {
+  color: rgb(48, 254, 7);
+}
+      
+.span3 {
+  color: rgb(222, 222, 18);
+}
+      
+h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 11px;
+  color: black;
+  font-style: italic;
+}
+
+.facebook {
+  width: 13px;
+  height: 13px;
+}
+
+.instagram {
+  width: 13px;
+  height: 13px;
+}
+
+.welcome {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: smaller;
+  justify-items: center;
+  
+}
+
+h3 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-style: italic;
+  color: rgb(145, 20, 20);
+  font-size: 16px;
+  
+}
+
+
+
+
+
 /*
-- font, size and colors of h1 et h2 (like index)
 - create all pages 
 - media queries
+- navbar style inline
+
+
+
+.span4 {
+  position: absolute;
+  top: 13%;
+  right: 3%;
+  font-size: 11px;
+ }
 */
