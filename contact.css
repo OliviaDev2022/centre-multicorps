@@ -1,0 +1,267 @@
+body {
+  width: 100%;
+  height: 100%;  
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.socials {
+text-align: right;
+  
+}
+
+.facebook1 {
+  width: 20px;
+  height: 15px;  
+  right: 5%;
+
+}
+
+.instagram1 {
+  width: 20px;
+  height: 15px;
+  left: 5%;
+  
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 20px;
+
+}
+
+.span1 {
+  color: rgb(85, 19, 227);
+
+}
+      
+.span2 {
+  color: rgb(48, 254, 7);
+
+}
+      
+.span3 {
+  color: rgb(222, 222, 18);
+
+}
+
+.nav-link {
+  font-size: 8px;
+  
+}
+
+a, .nav-link {
+  text-decoration: none;
+  color: rgb(105, 92, 92);
+
+}
+
+.studio, aside {
+  text-align: center;
+  font-size: 14px;
+
+}
+
+h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  color: rgb(145, 20, 20);
+  font-size: 16px;
+  text-align: center;
+
+}
+
+section, footer {
+  background-color: rgb(2, 8, 66);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 14px;
+  text-align: center;
+  color: rgb(97, 93, 93)
+
+}
+
+.facebook {
+  width: 30px;
+  height: 25px;  
+
+}
+
+.instagram {
+  width: 30px;
+  height: 25px;
+
+}
+
+/*
+margin: auto;
+  margin-top: 5%;
+  max-width: 30vw;
+  max-height: 70Vh;
+
+
+P LABEL INPUT
+font-size-adjust: calc();
+  
+*/
+
+form {
+  display: inline-block;  
+  line-height: 1,5em;
+
+}
+
+p,label, input {
+  text-align: left;
+  margin-left: 2%;
+  width: 95%;
+  
+}
+
+.submit {
+  margin-left: 2%;
+  padding: 2px;
+    
+}
+
+@media screen and (min-width: 320px) {
+
+  .nav-link {
+    font-size: 12px;
+    
+  }
+  
+  h1 {
+    font-size: 22px;
+  
+  }
+           
+  h2 {
+    font-size: 18px;
+  
+  }  
+
+  .studio, aside {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 375px) {
+
+  .nav-link {
+    font-size: 13px;
+    
+  }
+
+  h1 {
+    font-size: 25px;
+  
+  }
+           
+  h2 {
+    font-size: 20px;
+  
+  }  
+
+  .facebook1, .instagram1 {
+    width: 22px;
+    height: 17px;  
+  
+  }
+}
+
+@media screen and (min-width: 428px) {
+
+  .nav-link {
+    font-size: 15px;
+    
+  }
+
+  h1 {
+    font-size: 30px;
+  
+  }
+           
+  h2 {
+    font-size: 20px;
+  
+  }
+
+  .studio, aside {
+    font-size: 16px;
+  
+  }
+}
+  
+@media screen and (min-width: 768px) {
+
+  .bymail {    
+    position: relative;
+    width: 50%;
+    justify-content: center;
+       
+  }
+
+  .studio, aside {
+    font-size: 18px;
+    text-align: center;
+  
+  }
+
+  .facebook1, .instagram1 {
+    width: 25px;
+    height: 20px;  
+  
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  h1 {
+    font-size: 35px;
+  
+  }
+
+  .nav-link {
+    font-size: 18px;
+    
+  }
+        
+  h2 {
+    font-size: 22px;
+  
+  }
+
+  .facebook, .instagram {
+    width: 35px;
+    height: 30px;  
+  
+  }
+  
+  section, .copyright {
+    font-size: 16px;
+  }  
+}
+
+@media screen and (min-width: 1200px) {
+
+  h1 {
+    font-size: 50px;
+  
+  }
+
+  .nav-link {
+    font-size: 18px;
+    
+  }
+           
+  h2 {
+    font-size: 25px;
+  
+  }
+    
+  .studio, aside {
+    font-size: 22px;
+  }
+}
