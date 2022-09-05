@@ -1,11 +1,242 @@
-body {
-  background-color: rgb(247, 198, 198);
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: "Playfair Display", serif;
+
+}
+
+.socials {
+text-align: right;
+  
+}
+
+.nav-link {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 8px;
+  
+}
+
+.entete {
+  background-color: rgb(229, 147, 177);
+  text-align: center;
+
+}
+
+h1 {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 20px;
+
+}
+      
+.span1 {
+  color: rgb(85, 19, 227);
+
+}
+      
+.span2 {
+  color: rgb(48, 254, 7);
+
+}
+      
+.span3 {
+  color: rgb(222, 222, 18);
+
+}
+      
+h2 {
+  font-size: 10px;
+  color: black;
+  font-style: italic;
+
 }
 
 .welcome {
-  background-color: rgb(202, 197, 191);
+  font-size: 14px;
+  text-align: center;
+
 }
 
-.navbar, .footer {
-  background-color: aliceblue;
+h3 {
+  font-weight: bold;
+  font-style: italic;
+  color: rgb(145, 20, 20);
+  font-size: 21px;
+  text-align: center;
+
+}
+
+legend {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  justify-items: center;
+  font-size: 14px;
+
+}
+
+h4 {
+  font-weight: bolder;
+  font-size: 20px;
+  text-align: left;
+
+}
+
+a, .nav-link {
+  text-decoration: none;
+  color: rgb(105, 92, 92);
+
+}
+
+section, footer {
+  background-color: rgb(2, 8, 66);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 14px;
+  text-align: center;
+  color: rgb(97, 93, 93)
+
+}
+
+.facebook {
+  width: 40px;
+  height: 35px;  
+
+}
+
+.instagram {
+  width: 40px;
+  height: 35px;
+
+}
+
+@media screen and (min-width: 320px) {
+
+  .nav-link {
+    font-size: 10px;
+    
+  }
+  
+  h1 {
+    font-size: 22px;
+  
+  }
+           
+  h2, h3 {
+    font-size: 14px;
+  
+  }  
+}
+
+@media screen and (min-width: 375px) {
+
+  .nav-link {
+    font-size: 13px;
+    
+  }
+
+  h1 {
+    font-size: 25px;
+  
+  }
+           
+  h2, h3 {
+    font-size: 16px;
+  
+  }  
+}
+
+@media screen and (min-width: 428px) {
+
+  .nav-link {
+    font-size: 15px;
+    
+  }
+
+  h1 {
+    font-size: 30px;
+  
+  }
+           
+  h2 {
+    font-size: 18px;
+  
+  }
+
+  h3 {
+    font-size: 20px;
+  
+  }
+
+  .welcome, legend {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+.nav-link {
+  font-size: 18px;
+  
+}
+
+h1 {
+  font-size: 45px;
+
+}
+         
+h2 {
+  font-size: 25px;
+
+}
+
+h3 {
+  font-size: 30px;
+
+}
+
+h4 {
+  font-size: 25px;
+
+}
+}
+
+@media screen and (min-width: 1024px) {
+
+  .welcome {
+    font-size: 16px;
+  }
+  
+  h4 {
+    font-size: 28px;
+  
+  }
+
+  aside {
+    font-size: 20px;
+    
+  }
+
+  section, .copyright {
+    font-size: 16px;
+  }  
+}
+
+@media screen and (min-width: 1200px) {
+
+  h1 {
+    font-size: 50px;
+  
+  }
+           
+  h2 {
+    font-size: 30px;
+  
+  }
+  
+  h3 {
+    font-size: 38px;
+  
+  }
+  .welcome {
+    font-size: 18px;
+  }
 }
