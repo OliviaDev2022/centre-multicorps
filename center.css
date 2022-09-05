@@ -12,7 +12,7 @@ text-align: right;
 
 .nav-link {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 10px;
+  font-size: 8px;
   
 }
 
@@ -25,7 +25,7 @@ text-align: right;
 h1 {
   font-weight: bold;
   font-style: italic;
-  font-size: 30px;
+  font-size: 20px;
 
 }
       
@@ -45,14 +45,14 @@ h1 {
 }
       
 h2 {
-  font-size: 15px;
+  font-size: 10px;
   color: black;
   font-style: italic;
 
 }
 
 .welcome {
-  font-size: 16px;
+  font-size: 14px;
   text-align: center;
 
 }
@@ -67,10 +67,10 @@ h3 {
 }
 
 legend {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-align: center;
   justify-items: center;
-  font-size: 15px;
+  font-size: 14px;
 
 }
 
@@ -83,7 +83,7 @@ h4 {
 
 a, .nav-link {
   text-decoration: none;
-  color: rgb(105, 92, 92)
+  color: rgb(105, 92, 92);
 
 }
 
@@ -108,7 +108,7 @@ section, footer {
 
 }
 
-@media screen and (max-width: 319px) {
+@media screen and (min-width: 320px) {
 
   .nav-link {
     font-size: 10px;
@@ -116,26 +116,35 @@ section, footer {
   }
   
   h1 {
-    font-size: 25px;
+    font-size: 22px;
   
   }
            
   h2, h3 {
-    font-size: 15px;
+    font-size: 14px;
   
-  }
-  
+  }  
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 375px) {
 
   .nav-link {
     font-size: 13px;
     
   }
+
+  h1 {
+    font-size: 25px;
+  
+  }
+           
+  h2, h3 {
+    font-size: 16px;
+  
+  }  
 }
 
-@media screen and (max-width: 428px) {
+@media screen and (min-width: 428px) {
 
   .nav-link {
     font-size: 15px;
@@ -147,13 +156,22 @@ section, footer {
   
   }
            
-  h2, h3 {
+  h2 {
     font-size: 18px;
   
   }
+
+  h3 {
+    font-size: 20px;
+  
+  }
+
+  .welcome, legend {
+    font-size: 16px;
+  }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
 
 .nav-link {
   font-size: 18px;
@@ -165,16 +183,60 @@ h1 {
 
 }
          
-h2, h3 {
+h2 {
   font-size: 25px;
 
 }
 
+h3 {
+  font-size: 30px;
+
 }
-/*
 
-- media queries max 319, max 375, max 428, max 768, min 768
+h4 {
+  font-size: 25px;
 
+}
+}
 
+@media screen and (min-width: 1024px) {
 
-*/
+  .welcome {
+    font-size: 16px;
+  }
+  
+  h4 {
+    font-size: 28px;
+  
+  }
+
+  aside {
+    font-size: 20px;
+    
+  }
+
+  section, .copyright {
+    font-size: 16px;
+  }  
+}
+
+@media screen and (min-width: 1200px) {
+
+  h1 {
+    font-size: 50px;
+  
+  }
+           
+  h2 {
+    font-size: 30px;
+  
+  }
+  
+  h3 {
+    font-size: 38px;
+  
+  }
+  .welcome {
+    font-size: 18px;
+  }
+}
