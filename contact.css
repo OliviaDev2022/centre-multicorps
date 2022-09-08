@@ -74,6 +74,16 @@ h2 {
 
 }
 
+::placeholder {
+  color: rgb(161, 27, 27);
+  
+}
+
+::-webkit-input-placeholder {
+  color: rgb(161, 27, 27);
+
+}
+
 section, footer {
   background-color: rgb(2, 8, 66);
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
