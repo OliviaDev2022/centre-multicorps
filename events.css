@@ -7,21 +7,15 @@ body {
 
 .socials {
 text-align: right;
+margin-top: 1%;
   
 }
 
-.facebook1 {
+.facebook1, .instagram1 {
   width: 20px;
   height: 15px;  
   right: 5%;
 
-}
-
-.instagram1 {
-  width: 20px;
-  height: 15px;
-  left: 5%;
-  
 }
 
 h1 {
@@ -48,7 +42,7 @@ h1 {
 }
 
 .nav-link {
-  font-size: 10px;
+  font-size: 11px;
   
 }
 
@@ -61,15 +55,28 @@ a, .nav-link {
 h2 {
   font-family: "Playfair Display", serif;
   font-weight: bold;
-  color: rgb(145, 20, 20);
+  color: rgb(177, 9, 9);
+  font-size: 16px;
+  text-align: center;
+  text-shadow: 1px 0 2px rgb(105, 74, 74);
+
+}
+
+.studio {
   font-size: 16px;
   text-align: center;
 
 }
 
+img {
+  border-radius: 15px;
+  box-shadow: 3px 2px 2px rgb(181, 177, 177); 
+
+}
+
 legend {
-  font-size: 14px;
-  justify-content: center;
+  font-size: 15px;
+ 
 }
 
 section, footer {
@@ -81,15 +88,9 @@ section, footer {
 
 }
 
-.facebook {
+.facebook, .instagram {
   width: 30px;
   height: 25px;  
-
-}
-
-.instagram {
-  width: 30px;
-  height: 25px;
 
 }
 
@@ -109,8 +110,123 @@ section, footer {
     font-size: 18px;
   
   }  
+}
 
-  .studio, aside {
+@media screen and (min-width: 428px) {
+
+  h1 {
+    font-size: 24px;
+  
+  }
+           
+  h2 {
+    font-size: 20px;
+  
+  } 
+
+  legend {
     font-size: 16px;
+  } 
+}
+
+@media screen and (min-width: 768px) {
+
+  .facebook1, .instagram1 {
+    width: 25px;
+    height: 20px;
+    
+  }
+
+  h1 {
+    font-size: 30px;
+  
+  }
+
+  .nav-link {
+    font-size: 15px;
+    
+  }
+           
+  h2 {
+    font-size: 24px;
+  
+  } 
+
+  .studio, legend {
+    font-size: 18px;
+  }
+
+  section, footer {
+    font-size: 16px;
+    
+  }
+
+  .facebook, .instagram {
+    width: 35px;
+    height: 30px;
+  
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  .facebook1, .instagram1 {
+    width: 30px;
+    height: 25px;
+    
+  }
+
+  h1 {
+    font-size: 40px;
+  
+  }
+
+  .nav-link {
+    font-size: 16px;
+    
+  }
+           
+  h2 {
+    font-size: 32px;
+  
+  } 
+
+  section, footer {
+    font-size: 18px;
+    
+  }
+}
+
+@media screen and (min-width: 1200px) {
+
+  .facebook1, .instagram1 {
+    width: 35px;
+    height: 30px;
+    
+  }
+
+  h1 {
+    font-size: 45px;
+  
+  }
+
+  .nav-link {
+    font-size: 18px;
+    
+  }
+           
+  h2 {
+    font-size: 38px;
+  
+  } 
+
+  .studio, legend {
+    font-size: 21px;
+
+  }
+
+  section, footer {
+    font-size: 20px;
+    
   }
 }
