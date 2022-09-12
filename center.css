@@ -67,10 +67,8 @@ h3 {
 
 }
 
-legend {
+figcaption {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  text-align: center;
-  justify-items: center;
   font-size: 14px;
 
 }
@@ -167,7 +165,7 @@ section, footer {
   
   }
 
-  .welcome, legend {
+  .welcome, figcaption {
     font-size: 16px;
   }
 }
@@ -202,7 +200,7 @@ h4 {
 
 @media screen and (min-width: 1024px) {
 
-  .welcome {
+  .welcome, figcaption {
     font-size: 16px;
   }
   
@@ -239,5 +237,10 @@ h4 {
   }
   .welcome {
     font-size: 18px;
+  }
+
+  figcaption {
+    font-size: 18px;
+  
   }
 }
