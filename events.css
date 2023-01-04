@@ -107,12 +107,12 @@ section, footer {
   }  
 
   
-.facebook1, .instagram1 {
-  width: 10px;
-  height: 10px;  
-  right: 5%;
+  .facebook1, .instagram1 {
+    width: 10px;
+    height: 10px;  
+    right: 5%;
 
-}
+  }
 }
 
 @media screen and (min-width: 428px) {
