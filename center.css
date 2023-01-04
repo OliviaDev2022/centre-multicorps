@@ -58,6 +58,11 @@ h2 {
 
 }
 
+.danser {
+  color: rgb(255, 0, 0);
+  font-size: larger;
+}
+
 h3 {
   font-weight: bold;
   font-style: italic;
@@ -96,14 +101,14 @@ section, footer {
 }
 
 .facebook {
-  width: 40px;
-  height: 35px;  
+  width: 25px;
+  height: 25px;  
 
 }
 
 .instagram {
-  width: 40px;
-  height: 35px;
+  width: 25px;
+  height: 25px;
 
 }
 
@@ -120,7 +125,7 @@ section, footer {
   }
            
   h2, h3 {
-    font-size: 14px;
+    font-size: 16px;
   
   }  
 }
@@ -138,7 +143,7 @@ section, footer {
   }
            
   h2, h3 {
-    font-size: 16px;
+    font-size: 18px;
   
   }  
 }
@@ -196,6 +201,10 @@ h4 {
   font-size: 25px;
 
 }
+
+.danser {
+  font-size: 20px;
+}
 }
 
 @media screen and (min-width: 1024px) {
@@ -217,6 +226,10 @@ h4 {
   section, .copyright {
     font-size: 16px;
   }  
+
+  .danser {
+    font-size: 23px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -241,6 +254,9 @@ h4 {
 
   figcaption {
     font-size: 18px;
-  
+  }
+
+  .danser {
+    font-size: 25px;
   }
 }
