@@ -121,6 +121,12 @@ label, input, textarea {
     
 }
 
+#hautdepage {
+  text-align: right; 
+  margin-right: 20%;
+  
+}
+
 @media screen and (min-width: 320px) {
 
   .nav-link {
@@ -147,6 +153,11 @@ label, input, textarea {
 
   .studio, aside {
     font-size: 16px;
+  }
+
+  #hautdepage {
+    margin-right: 5%;
+    
   }
 }
 
@@ -273,7 +284,14 @@ label, input, textarea {
   
   section, footer {
     font-size: 18px;
+ 
   }  
+
+  #hautdepage {
+    margin-left: 85%;
+    width: 50px;
+    height: 50px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -307,5 +325,11 @@ label, input, textarea {
   section, footer {
     font-size: 20px;
     
+  }
+
+  #hautdepage {
+    margin-left: 85%;
+    width: 50px;
+    height: 50px;
   }
 }
