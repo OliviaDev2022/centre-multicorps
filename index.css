@@ -1,292 +1,262 @@
-body {
-  font-family: "Playfair Display", serif;
-  width: 100vw;
-  height: 100vh;
-  scroll-behavior: smooth;
-}
-
-.container-xs {
-  position: relative;
-  width: 99vw;
-}
-
-.img-responsive {
-  position: relative;
+html, body {
   width: 100%;
-  height: 150vh;
+  height: 100%;
+  font-family: "Playfair Display", serif;
+
 }
 
-.text {
+.socials {
+text-align: right;
+margin-top: 1%;
+
+}
+
+.nav-link {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 8px;
+  
+}
+
+.entete {
+  background-color: rgb(229, 147, 177);
+  text-align: center;
+
+}
+
+h1 {
   font-weight: bold;
   font-style: italic;
-  position: absolute;
-  top: 5%;
-  right: 1%;
-  font-size: 16px;
-}
+  font-size: 20px;
 
+}
+      
 .span1 {
   color: rgb(85, 19, 227);
-}
 
+}
+      
 .span2 {
   color: rgb(48, 254, 7);
-}
 
+}
+      
 .span3 {
   color: rgb(222, 222, 18);
-}
 
-.text2 {
+}
+      
+h2 {
+  font-size: 10px;
   color: black;
   font-style: italic;
-  position: absolute;
-  top: 13%;
-  right: 1%;
-  font-size: 12px;
+
 }
 
-.text3 {
-  color: rgb(224, 27, 27);
+.welcome {
+  font-size: 14px;
+  text-align: center;
+
+}
+
+.danser {
+  color: rgb(255, 0, 0);
+  font-size: larger;
+}
+
+h3 {
   font-weight: bold;
-  position: absolute;
-  font-size: 12px;
-  bottom: 36%;
-  left: 43%;
-  line-height: 1,2em;
+  font-style: italic;
+  color: rgb(145, 20, 20);
+  font-size: 21px;
+  text-align: center;
+
 }
 
-.buttons {
-  font-size: 8px;
-  padding-left: 10%;
+figcaption {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 14px;
+
+}
+
+h4 {
+  font-weight: bolder;
+  font-size: 20px;
+  text-align: left;
+
+}
+
+a, .nav-link {
+  text-decoration: none;
+  color: rgb(105, 92, 92);
+
+}
+
+section, footer {
+  background-color: rgb(2, 8, 66);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 14px;
+  text-align: center;
+  color: rgb(97, 93, 93)
+
+}
+
+.facebook {
+  width: 25px;
+  height: 25px;  
+
+}
+
+.instagram {
+  width: 25px;
+  height: 25px;
+
 }
 
 @media screen and (min-width: 320px) {
 
-  .text {
-    position: absolute;
-    top: 4%;
-    right: 3%;
-    font-size: 20px;
-    justify-content: end;
+  .nav-link {
+    font-size: 10px;
+    
   }
-
-  .text2 {
-    position: absolute;
-    top: 10%;
-    right: 3%;
-    font-size: 12px;
+  
+  h1 {
+    font-size: 22px;
+  
   }
-
-  .text3 {
-    position: absolute;
-    font-size: 14px;
-    bottom: 36%;
-    left: 45%;
-    line-height: 1,3em;
-  }
-
-  .buttons {
-    font-size: 12px;
-    padding-left: 9%;
-  }
+           
+  h2, h3 {
+    font-size: 16px;
+  
+  }  
 }
 
 @media screen and (min-width: 375px) {
 
-  .buttons {
-    font-size: 12px;
-    padding-left: 12%;
+  .nav-link {
+    font-size: 13px;
+    
   }
 
-  .text {
-    position: absolute;
-    left: 3%;
-    top: 6%;
-    font-size: 22px;
+  h1 {
+    font-size: 25px;
   
   }
-
-  .text2 {
-    position: absolute;
-    top: 12%;
-    left: 3%;
-    font-size: 14px;
-  }
-
-  .text3 {
-    position: absolute;
-    bottom: 35%;
-    left: 50%;
-    font-size: 16px;
-    line-height: 1.5em;
-  }
+           
+  h2, h3 {
+    font-size: 18px;
+  
+  }  
 }
 
 @media screen and (min-width: 428px) {
 
-  .buttons {
-    font-size: 14px;
-    padding-left: 15%;
-  }
-
-  .text {
-    position: absolute;
-    left: 3%;
-    top: 6%;
-    font-size: 25px;
-  
-  }
-
-  .text2 {
-    position: absolute;
-    top: 12%;
-    left: 3%;
-    font-size: 16px;
-  }
-
-  .text3 {
-    position: absolute;
-    bottom: 35%;
-    left: 50%;
-    font-size: 16px;
-    line-height: 1.5em;
-  }
-}
-
-@media screen and (min-width: 576px) {
-
-  .text {
-    position: absolute;
-    right: 1%;
-    top: 5%;
-    font-size: 3em;
+  .nav-link {
+    font-size: 15px;
     
   }
 
-  .text2 {
-    position: absolute;
-    top: 15%;
-    right: 35%;
-    font-size: 20px;
-
+  h1 {
+    font-size: 30px;
+  
+  }
+           
+  h2 {
+    font-size: 18px;
+  
   }
 
-  .text3 {
-    position: absolute;
-    bottom: 40%;
-    right: 12%;
+  h3 {
     font-size: 20px;
-    line-height: 1.3em;
+  
   }
 
-  .buttons {
+  .welcome, figcaption {
     font-size: 16px;
-    padding-left: 25%;
   }
 }
 
 @media screen and (min-width: 768px) {
 
-  .text2 {
-    position: absolute;
-    top: 14%;
-    right: 32%;
-    font-size: 25px;
-  }
-
-  .text3 {
-    position: absolute;
-    bottom: 40%;
-    right: 12%;
-    font-size: 1.5em;
-    line-height: 1.5em;
-  }
-
-  .buttons {
-    font-size: 16px;
-    padding-left: 25%;
-  }
+.nav-link {
+  font-size: 18px;
+  
 }
 
-@media screen and (min-width: 992px) {
+h1 {
+  font-size: 45px;
 
-  .text2 {
-    position: absolute;
-    top: 12%;
-    right: 50%;
-    font-size: 25px;
+}
+         
+h2 {
+  font-size: 25px;
+
+}
+
+h3 {
+  font-size: 30px;
+
+}
+
+h4 {
+  font-size: 25px;
+
+}
+
+.danser {
+  font-size: 20px;
+}
+}
+
+@media screen and (min-width: 1024px) {
+
+  .welcome, figcaption {
+    font-size: 16px;
+  }
+  
+  h4 {
+    font-size: 28px;
+  
   }
 
-  .text3 {
-    position: absolute;
-    bottom: 40%;
-    right: 10%;
-    font-size: 1.8em;
-    line-height: 1.5em;
+  aside {
+    font-size: 20px;
+    
   }
 
-  .buttons {
-    font-size: 18px;
-    padding-left: 28%;
+  section, .copyright {
+    font-size: 16px;
+  }  
+
+  .danser {
+    font-size: 23px;
   }
 }
 
 @media screen and (min-width: 1200px) {
 
-  .text {
-    position: absolute;
-    left: 4%;
-    padding-top: 3%;
-    font-size: 4em;
-    line-height: 1.2em;
+  h1 {
+    font-size: 50px;
+  
   }
-
-  .text2 {
-    position: absolute;
-    top: 24%;
-    left: 4%;
-    font-size: 25px;
+           
+  h2 {
+    font-size: 30px;
+  
   }
-
-  .text3 {
-    position: absolute;
-    bottom: 27%;
-    left: 65%;
-    font-size: 1.6em;
-    line-height: 1.5em;
+  
+  h3 {
+    font-size: 38px;
+  
   }
-
-  .buttons {
-    font-size: 20px;
-    padding-top: 38%;
-    padding-left: 35%;
-  }
-}
-
-@media screen and (min-width: 1400px) {
-
-  .text2 {
-    position: absolute;
-    top: 24%;
-    left: 4%;
-    font-size: 28px;
-
-  }
-
-  .text3 {
-    position: absolute;
-    bottom: 27%;
-    left: 70%;
-    font-size: 1.6em;
-    line-height: 1.5em;
-
-  }
-
-  .buttons {
+  .welcome {
     font-size: 18px;
-    padding-top: 60%;
-    padding-left: 40%;
+  }
 
+  figcaption {
+    font-size: 18px;
+  }
+
+  .danser {
+    font-size: 25px;
   }
 }
