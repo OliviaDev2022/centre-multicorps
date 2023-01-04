@@ -11,18 +11,12 @@ margin-top: 1%;
   
 }
 
-.facebook1, .instagram1 {
-  width: 20px;
-  height: 15px;  
-  right: 5%;
-
-}
-
 h1 {
   font-family: "Playfair Display", serif;
   font-weight: bold;
   font-style: italic;
   font-size: 20px;
+  margin-top: 1%;
 
 }
 
@@ -42,7 +36,8 @@ h1 {
 }
 
 .nav-link {
-  font-size: 11px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 8px;
   
 }
 
@@ -97,7 +92,7 @@ section, footer {
 @media screen and (min-width: 320px) {
 
   .nav-link {
-    font-size: 12px;
+    font-size: 13px;
     
   }
   
@@ -110,9 +105,29 @@ section, footer {
     font-size: 18px;
   
   }  
+
+  
+.facebook1, .instagram1 {
+  width: 10px;
+  height: 10px;  
+  right: 5%;
+
+}
 }
 
 @media screen and (min-width: 428px) {
+
+  .nav-link {
+    font-size: 15px;
+    
+  }
+
+  .facebook1, .instagram1 {
+    width: 15px;
+    height: 15px;  
+    right: 5%;
+  
+  }
 
   h1 {
     font-size: 24px;
@@ -132,8 +147,8 @@ section, footer {
 @media screen and (min-width: 768px) {
 
   .facebook1, .instagram1 {
-    width: 25px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
     
   }
 
@@ -143,7 +158,7 @@ section, footer {
   }
 
   .nav-link {
-    font-size: 15px;
+    font-size: 18px;
     
   }
            
@@ -171,8 +186,8 @@ section, footer {
 @media screen and (min-width: 1024px) {
 
   .facebook1, .instagram1 {
-    width: 30px;
-    height: 25px;
+    width: 22px;
+    height: 22px;
     
   }
 
@@ -182,7 +197,7 @@ section, footer {
   }
 
   .nav-link {
-    font-size: 16px;
+    font-size: 18px;
     
   }
            
@@ -200,8 +215,8 @@ section, footer {
 @media screen and (min-width: 1200px) {
 
   .facebook1, .instagram1 {
-    width: 35px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     
   }
 
